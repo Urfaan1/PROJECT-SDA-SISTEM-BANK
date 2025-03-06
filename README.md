@@ -1,2 +1,2 @@
-# BANK-9-NAGA
+# SISTEM ANTREAN BANK
 Tugas Praktikum Struktur Data dan Algoritma
