@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS = -Wall -g
-TARGET = program
+TARGET = BankMahasiswa
 SRCS = main.c fungsi.c
 
 all: $(SRCS)
