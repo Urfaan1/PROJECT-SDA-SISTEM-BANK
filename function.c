@@ -30,3 +30,18 @@ void tambahNasabah(Antrean* antrean, char nama[], char layanan[]) {
     }
     printf("Nasabah %s - %s diproses.\n", nama, layanan);
 }
+// Fungsi untuk memproses nasabah dari antrean
+Nasabah* prosesNasabah(Antrean* antrean) {
+    if (antrean->depan == NULL) {
+        return NULL;
+    }
+
+    Nasabah* nasabahDiproses = antrean->depan;
+    antrean->depan = antrean->depan->next;
+
+    if (antrean->depan == NULL) {
+        antrean->belakang = NULL;
+    }
+
+    return nasabahDiproses;
+}
