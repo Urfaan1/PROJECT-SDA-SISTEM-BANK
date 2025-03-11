@@ -2,3 +2,4 @@
 ?raw=true)
 # SISTEM ANTREAN BANK
 Tugas Praktikum Struktur Data dan Algoritma
+![Image](https://github.com/user-attachments/assets/c7147d1f-f9db-4cb1-8292-8b96bee71fb6)
